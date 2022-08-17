@@ -1,0 +1,29 @@
+$nomention
+$title[Second Setup]
+$description[Second setup was completed successfully! You are now ready for guild stuff!]
+
+$modifyChannelPerms[$channelID[red-guild];+sendmessages;+readmessages;$roleID[Red Guild Member]]
+$modifyChannelPerms[$channelID[red-guild];+sendmessages;+readmessages;$roleID[Red Guild Leader]]
+$modifyChannelPerms[$channelID[red-guild];-readmessages;$guildID]
+
+$modifyChannelPerms[$channelID[blue-guild];+sendmessages;+readmessages;$roleID[Blue Guild Member]]
+$modifyChannelPerms[$channelID[blue-guild];+sendmessages;+readmessages;$roleID[Blue Guild Leader]]
+$modifyChannelPerms[$channelID[blue-guild];-readmessages;$guildID]
+
+$modifyChannelPerms[$channelID[green-guild];+sendmessages;+readmessages;$roleID[Green Guild Member]]
+$modifyChannelPerms[$channelID[green-guild];+sendmessages;+readmessages;$roleID[Green Guild Leader]]
+$modifyChannelPerms[$channelID[green-guild];-readmessages;$guildID]
+
+$modifyChannelPerms[$channelID[yellow-guild];+sendmessages;+readmessages;$roleID[Yellow Guild Member]]
+$modifyChannelPerms[$channelID[yellow-guild];+sendmessages;+readmessages;$roleID[Yellow Guild Leader]]
+$modifyChannelPerms[$channelID[yellow-guild];-readmessages;$guildID]
+
+$modifyChannelPerms[$channelID[orange-guild];+sendmessages;+readmessages;$roleID[Orange Guild Member]]
+$modifyChannelPerms[$channelID[orange-guild];+sendmessages;+readmessages;$roleID[Orange Guild Leader]]
+$modifyChannelPerms[$channelID[orange-guild];-readmessages;$guildID]
+
+$modifyChannelPerms[$channelID[black-guild];+sendmessages;+readmessages;$roleID[Black Guild Member]]
+$modifyChannelPerms[$channelID[black-guild];+sendmessages;+readmessages;$roleID[Black Guild Leader]]
+$modifyChannelPerms[$channelID[black-guild];-readmessages;$guildID]
+
+$editButton[secondsetup;Completed!;success;yes;]
