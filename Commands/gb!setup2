@@ -1,0 +1,18 @@
+$nomention
+$title[Second setup]
+$description[
+This setup (also the last one) will setup permissions for the guilds. 
+
+❗Requirements:
+✅`gb!setup1` command already used.
+🙋‍♂️No changes to channel names and roles.
+
+If you changed anything, please use `gb!uninstall` or delete them manually.
+
+If you are okay, press the button below.]
+
+$addButton[no;secondsetup;Second Setup;success;no;➡️]
+$addButton[no;cancel;Cancel;danger;no;❌]
+$ephemeral
+
+$onlyAdmin[Hey sorry. You cannot use this command!]
