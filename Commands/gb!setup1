@@ -1,0 +1,24 @@
+$nomention
+$onlyBotPerms[manageroles;managechannels;I'm missing the `Manage_Roles` permission or the `Manage_Channels` permission.]
+$title[Guilds setup]
+$description[
+**READ THIS!**
+This command will setup the guild channels and roles. To configure permissions use `gb!setup2`. If you do not meet the requirements below click cancel and retry.
+
+❓Info
+💬Channels: 6
+🙋‍♂️Roles: 12
+
+❗ Category ID - **required**
+Use `gb!set-guildcatid <guild category id>` to set the category id for the channels to be created!
+
+Are you sure? Click Yes to continue or click No to cancel]
+
+$thumbnail[$authorAvatar]
+
+$addButton[no;confirm;Yes;success;no;📥]
+$addButton[no;cancel;No;danger;no;❌]
+$suppressErrors[An error occurred.]
+$ephemeral
+
+$onlyAdmin[Hey sorry. You cant use that command!]
