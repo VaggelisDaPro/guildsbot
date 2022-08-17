@@ -1,0 +1,20 @@
+$nomention
+$title[Guild channel and roles deleted!]
+$description[Successfully deleted!]
+
+$deleteRole[$roleID[Red Guild Member]]
+$deleteRole[$roleID[Red Guild Leader]]
+$deleteRole[$roleID[Blue Guild Member]]
+$deleteRole[$roleID[Blue Guild Leader]]
+$deleteRole[$roleID[Green Guild Member]]
+$deleteRole[$roleID[Green Guild Leader]]
+$deleteRole[$roleID[Yellow Guild Member]]
+$deleteRole[$roleID[Yellow Guild Leader]]
+$deleteRole[$roleID[Orange Guild Member]]
+$deleteRole[$roleID[Orange Guild Leader]]
+$deleteRole[$roleID[Black Guild Member]]
+$deleteRole[$roleID[Black Guild Leader]]
+$deleteChannelsByName[red-guild;blue-guild;green-guild;yellow-guild;orange-guild;black-guild]
+
+$editButton[continue;Uninstalled;danger;yes;]
+$editButton[nocontinue;Uninstalled;success;yes;]
