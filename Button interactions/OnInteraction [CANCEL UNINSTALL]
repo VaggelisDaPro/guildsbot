@@ -1,0 +1,7 @@
+$nomention
+$title[Uninstallation cancelled]
+$description[
+Uninstallation was cancelled successfully!]
+
+$editButton[continue;Cancelled!;danger;yes;]
+$editButton[nocontinue;Cancelled!;success;yes;]
