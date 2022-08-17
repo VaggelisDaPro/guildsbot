@@ -1,0 +1,7 @@
+$nomention
+$title[Canceled]
+$description[
+Setup canceled.]
+
+$editButton[confirm;Canceled;success;yes]
+$editButton[cancel;Canceled;danger;yes]
