@@ -1,0 +1,16 @@
+$nomention
+$title[Guilds uninstall menu]
+$description[
+By continuing you agree that you will uninstall the guild channels and roles, clearing 
+all the messages and everything sent in these channels.
+
+⚠️WARNING⚠️ This action is irreversible! 
+
+Are you sure you want to continue?
+]
+$footer[Note: If it says "Interaction failed" then it worked. It just has an error]
+$addButton[no;continue;Continue;danger;no;✅]
+$addButton[no;nocontinue;Cancel;success;no;❌]
+
+$suppressErrors[An error occurred.]
+$ephemeral
