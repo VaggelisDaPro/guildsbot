@@ -1,0 +1,8 @@
+$nomention
+Successfully set `$message` as the `Guild Category ID`
+
+$setServerVar[guildcategoryid;$message]
+
+$argsCheck[>1;❌ Invalid category ID or way too many arguments.]
+
+$onlyAdmin[Hey sorry. You cant use that command!]
