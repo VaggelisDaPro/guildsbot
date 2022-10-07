@@ -1,0 +1,11 @@
+$nomention
+$title[Guild Leader Transfer]
+$description[This will transfer your guild leadership to <@$mentioned[1]>.
+
+Are you sure you want to continue?]
+$footer[This cannot be un-done!]
+
+$addButton[no;transfertrue-$mentioned[1];Yes;danger;no;✅]
+$addButton[no;transferfalse;No;success;no;❌]
+
+$onlyForRoles[Red Guild Leader;Blue Guild Leader;Green Guild Leader;Yellow Guild Leader;Orange Guild Leader;Black Guild Leader;You are not a guild leader. You cannot use this command.]
