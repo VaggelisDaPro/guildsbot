@@ -1,0 +1,15 @@
+$nomention
+$title[Join Guild]
+$description[You successfully joined the $message Guild!]
+$footer[]
+$color[ffffff]
+
+$roleGrant[$authorID;+$roleID[$if[$or[$message==Red;$message==red]] Red Guild Member
+$elseif[$or[$message==Blue;$message==blue]] Blue Guild Member
+$elseif[$or[$message==Green;$message==green]] Green Guild Member
+$elseif[$or[$message==Yellow;$message==yellow]] Yellow Guild Member
+$elseif[$or[$message==Orange;$message==orange]] Orange Guild Member
+$elseif[$or[$message==Black;$message==black]] Black Guild Member
+$endif]]
+
+$suppressErrors[You didn't select a valid guild to join]
