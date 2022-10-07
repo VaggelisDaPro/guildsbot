@@ -1,0 +1,10 @@
+$nomention
+$title[Guild's Money]
+$description[
+Your Guild: $if[$or[$hasRole[$authorID;$roleID[Red Guild Member]]==true;$hasRole[$authorID;$roleID[Red Guild Leader]]==true]]Red Guild$elseif[$or[$hasRole[$authorID;$roleID[Blue Guild Member]]==true;$hasRole[$authorID;$roleID[Blue Guild Leader]]==true]]Blue Guild$elseif[$or[$hasRole[$authorID;$roleID[Green Guild Member]]==true;$hasRole[$authorID;$roleID[Green Guild Leader]]==true]]Green Guild$elseif[$or[$hasRole[$authorID;$roleID[Yellow Guild Member]]==true;$hasRole[$authorID;$roleID[Yellow Guild Leader]]==true]]Yellow Guild$elseif[$or[$hasRole[$authorID;$roleID[Orange Guild Member]]==true;$hasRole[$authorID;$roleID[Orange Guild Leader]]==true]]Orange Guild$elseif[$or[$hasRole[$authorID;$roleID[Black Guild Member]]==true;$hasRole[$authorID;$roleID[Black Guild Leader]]==true]]Black Guild$elseNo Guild
+$endif
+Your Guild's Balance: $getServerVar[$if[$or[$hasRole[$authorID;$roleID[Red Guild Member]]==true;$hasRole[$authorID;$roleID[Red Guild Leader]]==true]]redguildmoney$elseif[$or[$hasRole[$authorID;$roleID[Blue Guild Member]]==true;$hasRole[$authorID;$roleID[Blue Guild Leader]]==true]]blueguildmoney$elseif[$or[$hasRole[$authorID;$roleID[Green Guild Member]]==true;$hasRole[$authorID;$roleID[Green Guild Leader]]==true]]greenguildmoney$elseif[$or[$hasRole[$authorID;$roleID[Yellow Guild Member]]==true;$hasRole[$authorID;$roleID[Yellow Guild Leader]]==true]]yellowguildmoney$elseif[$or[$hasRole[$authorID;$roleID[Orange Guild Member]]==true;$hasRole[$authorID;$roleID[Orange Guild Leader]]==true]]orangeguildmoney$elseif[$or[$hasRole[$authorID;$roleID[Black Guild Member]]==true;$hasRole[$authorID;$roleID[Black Guild Leader]]==true]]blackguildmoney$elseError
+$endif]
+]
+
+$suppressErrors[An error occurred. Check if you are in a guild!]
