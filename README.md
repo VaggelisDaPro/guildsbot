@@ -1,5 +1,5 @@
 # Guilds bot source code
-**IF YOU WANT TO ADD THE BOT YOU MAY CLICK [HERE](https://discord.com/oauth2/authorize?client_id=999313456866013264&scope=bot&permissions=805383184]
+**IF YOU WANT TO ADD THE BOT YOU MAY CLICK [HERE](https://discord.com/oauth2/authorize?client_id=999313456866013264&scope=bot&permissions=805383184)
 
 Guilds Bot was made with BDFD (Bot Designer For Discord) with BDScript and BDScript 2.
 You may find the entire wiki [here](https://nilpointer-software.github.io/bdfd-wiki/nightly/)
