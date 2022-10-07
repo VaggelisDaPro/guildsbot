@@ -1,0 +1,11 @@
+$nomention
+$title[All Guilds Info]
+$description[
+Here is all the info about the guilds!
+$addField[🔴Red Guild Stats🔴;Power: $getServerVar[redguildpower] | HP: $getServerVar[redguildhp]/$getServerVar[redmaxhp];yes]
+$addField[🔵Blue Guild Stats🔵;Power: $getServerVar[blueguildpower] | HP: $getServerVar[blueguildhp]/$getServerVar[bluemaxhp];yes]
+$addField[🟢Green Guild Stats🟢;Power: $getServerVar[greenguildpower] | HP: $getServerVar[greenguildhp]/$getServerVar[greenmaxhp];yes]
+$addField[🟡Yellow Guild Stats🟡;Power: $getServerVar[yellowguildpower] | HP: $getServerVar[yellowguildhp]/$getServerVar[yellowmaxhp];yes]
+$addField[🟠Orange Guild Stats🟠;Power: $getServerVar[orangeguildpower] | HP: $getServerVar[orangeguildhp]/$getServerVar[orangemaxhp];yes]
+$addField[⚫Black Guild Stats⚫;Power: $getServerVar[blackguildpower] | HP: $getServerVar[blackguildhp]/$getServerVar[blackmaxhp];yes]
+]
