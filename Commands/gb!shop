@@ -1,0 +1,18 @@
+$nomention
+$title[Upgrades and stuff]
+$description[
+> Stuff
+`Soldier` - 50$
+Get a soldier. 1 Soldier = 50$ and 25 Power.
+`Crate` - 250$
+Buy a crate and test your luck!
+
+> Upgrades
+`MoreHP` - 25.000$
+Get 50% more HP on your total health!
+
+> Other
+`Heal` - 10$
+This isn't buyable. This is how much a Heal Point (1 HP) costs on healing. (Use `gb!heal <amount>`)
+]
+$footer[Use gb!buy to buy stuff for your guild!]
